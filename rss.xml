@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Primeira Hora</title>
+  <link>https://SEU-DOMINIO/</link>
+  <description>Notícias de Delmiro Gouveia e região</description>
+  <language>pt-BR</language>
+  <item>
+    <title>Prefeitura anuncia mutirão de limpeza em bairros centrais</title>
+    <link>https://SEU-DOMINIO/#noticia-201</link>
+    <guid isPermaLink="false">noticia-201</guid>
+    <pubDate>Mon, 06 Oct 2025 08:10:00 -0300</pubDate>
+    <description>Ação envolve 80 servidores e coleta de entulhos em cinco frentes.</description>
+  </item>
+</channel>
+</rss>

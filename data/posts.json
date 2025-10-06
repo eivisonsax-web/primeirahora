@@ -1,0 +1,29 @@
+[
+  {
+    "id": 201,
+    "cat": "delmiro",
+    "title": "Prefeitura anuncia mutirão de limpeza em bairros centrais",
+    "dt": "2025-10-06T08:10:00-03:00",
+    "img": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Ação envolve 80 servidores e coleta de entulhos em cinco frentes.",
+    "body": "O cronograma prevê passagem pelas áreas com maior acúmulo de resíduos e orientação porta a porta."
+  },
+  {
+    "id": 202,
+    "cat": "alagoas",
+    "title": "AL-220 terá interdição parcial para obra de recapeamento",
+    "dt": "2025-10-06T07:40:00-03:00",
+    "img": "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "DER-AL informa horários de bloqueio entre Delmiro e Piranhas.",
+    "body": "Motoristas devem redobrar atenção nos trechos; haverá operação pare-e-siga."
+  },
+  {
+    "id": 203,
+    "cat": "policia",
+    "title": "Polícia apreende motocicleta clonada no Centro",
+    "dt": "2025-10-06T07:05:00-03:00",
+    "img": "https://images.unsplash.com/photo-1623602574711-006b4d437e1b?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Suspeito foi conduzido à Delegacia Regional para esclarecimentos.",
+    "body": "A abordagem ocorreu durante patrulhamento; chassi apresentava sinais de adulteração."
+  }
+]

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Atlas News — Notícias rápidas e confiáveis</title>
-  <meta name="description" content="Portal de notícias com foco em agilidade, verificação e boa leitura." />
+  <title>Primeira Hora — Notícias de Delmiro Gouveia e região</title>
+  <meta name="description" content="Portal de notícias locais de Delmiro Gouveia (AL) e Sertão do São Francisco, com foco em agilidade e verificação." />
   <meta name="theme-color" content="#0f172a" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Atlas News" />
-  <meta property="og:description" content="Notícias rápidas e confiáveis." />
+  <meta property="og:title" content="Primeira Hora" />
+  <meta property="og:description" content="Notícias de Delmiro Gouveia e região." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/og-image.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <!-- Favicon (substitua depois) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' rx='56' fill='%230f172a'/><text x='50%' y='54%' text-anchor='middle' font-size='140' fill='%23fff' font-family='Arial'>A</text></svg>">
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' rx='56' fill='%230f172a'/><text x='50%' y='54%' text-anchor='middle' font-size='120' fill='%23fff' font-family='Arial'>1H</text></svg>">
   <style>
     :root{
       --bg:#0b1020;--card:#0f172a;--text:#e5e7eb;--muted:#94a3b8;--brand:#22c55e;--brand-2:#14b8a6;--stroke:#1f2a44;--accent:#f59e0b;--danger:#ef4444;--ok:#22c55e;
@@ -65,41 +65,32 @@
     body.light .search{background:#fff}
     body.light .btn{background:#fff}
     body.light .toggle::after{left:17px}
-    /* Modal */
     dialog{width:min(860px,95vw);border:none;border-radius:16px;padding:0;overflow:hidden;background:var(--card);color:var(--text);border:1px solid var(--stroke)}
     dialog::backdrop{background:rgba(0,0,0,.6)}
     .article{padding:20px}
     .article h1{margin:8px 0 10px;font-size:28px}
     .article .article-meta{color:var(--muted);font-size:13px}
     .close{position:absolute;top:10px;right:12px;background:#0b1328;border:1px solid var(--stroke);border-radius:10px;padding:6px 10px;cursor:pointer}
-    /* Alerts */
     .alert{padding:10px 12px;border-radius:12px;border:1px solid var(--stroke);background:#0b1328;color:#e2e8f0}
     .alert.ok{border-color:rgba(34,197,94,.35)}
   </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsMediaOrganization",
-    "name": "Atlas News",
-    "url": "https://atlasnews.example",
-    "logo": "https://atlasnews.example/logo.png"
-  }
-  </script>
 </head>
 <body>
   <header>
     <div class="container topbar">
       <div class="brand">
-        <div class="logo">A</div>
-        <span>Atlas News</span>
-        <span class="badge" id="edition">Edição • 06 out 2025</span>
+        <div class="logo">1H</div>
+        <span>Primeira Hora</span>
+        <span class="badge" id="edition">Edição • Delmiro Gouveia</span>
       </div>
       <nav id="cats">
         <button class="chip active" data-cat="todas">Todas</button>
-        <button class="chip" data-cat="brasil">Brasil</button>
-        <button class="chip" data-cat="mundo">Mundo</button>
+        <button class="chip" data-cat="delmiro">Delmiro Gouveia</button>
+        <button class="chip" data-cat="alagoas">Alagoas</button>
+        <button class="chip" data-cat="sertao">Sertão</button>
+        <button class="chip" data-cat="policia">Polícia</button>
+        <button class="chip" data-cat="politica">Política</button>
         <button class="chip" data-cat="economia">Economia</button>
-        <button class="chip" data-cat="tecnologia">Tecnologia</button>
         <button class="chip" data-cat="esportes">Esportes</button>
         <button class="chip" data-cat="cultura">Cultura</button>
       </nav>
@@ -119,22 +110,22 @@
 
   <main class="container" id="main">
     <section class="grid" aria-label="Destaques">
-      <article class="card lead" data-cat="tecnologia" data-title="Startup brasileira lança IA que resume sessões do Congresso em tempo real" data-date="2025-10-06">
-        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Painel digital com dados" />
+      <article class="card lead" data-cat="delmiro" data-title="Bem-vindo ao Primeira Hora" data-date="">
+        <img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=1600&auto=format&fit=crop" alt="Cidade e manchete" />
         <div class="content">
-          <div class="meta"><span class="badge">Tecnologia</span><span>•</span><time>06/10/2025 09:10</time></div>
-          <h2 class="title">Startup brasileira lança IA que resume sessões do Congresso em tempo real</h2>
-          <p class="desc">Ferramenta promete aumentar a transparência do processo legislativo. Especialistas discutem impactos éticos.</p>
+          <div class="meta"><span class="badge">Delmiro Gouveia</span><span>•</span><time id="leadTime"></time></div>
+          <h2 class="title">Seu portal de notícias de Delmiro Gouveia e região</h2>
+          <p class="desc">Atualize as matérias no arquivo <strong>data/posts.json</strong> e publique pelo GitHub Pages.</p>
         </div>
       </article>
       <aside class="sidebar">
-        <div class="card ad"><strong>Espaço para anúncio</strong><br>300×250 • Chame atenção de leitores locais</div>
+        <div class="card ad"><strong>Espaço para anúncio</strong><br>300×250 • Comercial: comercial@primeirahora.al</div>
         <div class="card">
           <div class="content">
             <h3 style="margin:0 0 8px">Assine nossa newsletter</h3>
             <p class="muted" style="margin:0 0 12px">Receba o resumo diário às 7h.</p>
             <form id="newsForm" class="row" style="grid-template-columns:1fr auto">
-              <input id="email" placeholder="seu@email.com" aria-label="Email" style="padding:10px 12px;border-radius:12px;border:1px solid var(--stroke);background:#0b1328;color:var(--text)">
+              <input id="email" placeholder="seu@email.com" aria-label="Email" style="padding:10px 12px;border-radius:12px;border:1px solid var(--stroke);background:#0b1328;color:#0f172a">
               <button class="btn primary" type="submit">Quero receber</button>
             </form>
             <p id="newsMsg" class="alert ok" style="display:none;margin-top:10px">Inscrição realizada! Confira seu e-mail 👍</p>
@@ -142,8 +133,8 @@
         </div>
         <div class="card">
           <div class="content">
-            <h3 style="margin:0 0 8px">Redações parceiras</h3>
-            <p class="muted">Envie pautas, releases e sugestões para <a href="mailto:redacao@atlas.news">redacao@atlas.news</a></p>
+            <h3 style="margin:0 0 8px">Redação</h3>
+            <p class="muted">Envie pautas: <a href="mailto:redacao@primeirahora.al">redacao@primeirahora.al</a></p>
           </div>
         </div>
       </aside>
@@ -159,22 +150,21 @@
   <footer class="container" style="padding:20px 0 40px">
     <div class="footgrid">
       <div>
-        <div class="brand" style="margin-bottom:8px"><div class="logo">A</div><span>Atlas News</span></div>
-        <p class="muted">© <span id="year"></span> Atlas News. Todos os direitos reservados.</p>
+        <div class="brand" style="margin-bottom:8px"><div class="logo">1H</div><span>Primeira Hora</span></div>
+        <p class="muted">© <span id="year"></span> Primeira Hora. Todos os direitos reservados.</p>
         <p class="muted">Política editorial • Privacidade • Termos</p>
       </div>
       <div>
         <h4 style="margin:6px 0 8px">Contato</h4>
-        <p class="muted">Comercial: <a href="mailto:anuncios@atlas.news">anuncios@atlas.news</a><br>Redação: <a href="mailto:redacao@atlas.news">redacao@atlas.news</a></p>
+        <p class="muted">Comercial: <a href="mailto:comercial@primeirahora.al">comercial@primeirahora.al</a><br>Redação: <a href="mailto:redacao@primeirahora.al">redacao@primeirahora.al</a></p>
       </div>
       <div>
         <h4 style="margin:6px 0 8px">Siga</h4>
-        <p class="muted"><a href="#">Instagram</a> • <a href="#">X</a> • <a href="#">YouTube</a></p>
+        <p class="muted"><a href="#">Instagram</a> • <a href="#">Facebook</a> • <a href="#">YouTube</a></p>
       </div>
     </div>
   </footer>
 
-  <!-- Modal de artigo -->
   <dialog id="articleModal">
     <button class="close" id="closeModal">Fechar</button>
     <img id="articleImg" alt="" />
@@ -186,36 +176,17 @@
   </dialog>
 
   <script>
-    // Dados de exemplo — substitua por integração com CMS ou planilha
-    const posts = [
-      {id:1, cat:'brasil', title:'Governo anuncia pacote de investimentos verdes', dt:'2025-10-06T08:20:00-03:00', img:'https://images.unsplash.com/photo-1523978591478-c753949ff840?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Projetos de energia limpa e reflorestamento devem receber prioridade no orçamento.',
-       body:`O plano prevê linhas de crédito e incentivos fiscais para empresas de energia solar e eólica. Especialistas apontam que a estabilidade regulatória será chave para atrair capital.`},
-      {id:2, cat:'mundo', title:'Cúpula climática reúne 70 países em Genebra', dt:'2025-10-05T22:10:00-03:00', img:'https://images.unsplash.com/photo-1520975922203-b5d7f9743558?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Negociadores tentam fechar metas de carbono para 2035.',
-       body:`Os países discutem cooperação tecnológica e mecanismos de mercado de carbono. ONGs cobram maior ambição dos maiores emissores.`},
-      {id:3, cat:'economia', title:'Inflação mensal surpreende para baixo e anima mercado', dt:'2025-10-06T07:05:00-03:00', img:'https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Analistas revisam projeções de juros após leitura do índice.',
-       body:`Com a desaceleração dos preços de alimentos, o núcleo também recuou. Bancos projetam cortes adicionais na próxima reunião.`},
-      {id:4, cat:'tecnologia', title:'Nova atualização de segurança corrige falha crítica em smartphones', dt:'2025-10-06T06:40:00-03:00', img:'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Usuários devem atualizar seus aparelhos imediatamente.',
-       body:`A vulnerabilidade permitia execução remota de código. Fabricantes liberaram patches para os modelos afetados.`},
-      {id:5, cat:'esportes', title:'Final do campeonato tem recorde de público', dt:'2025-10-05T20:30:00-03:00', img:'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Clima de festa marcou a decisão em estádio lotado.',
-       body:`Ingressos esgotaram em 30 minutos. Técnicos elogiaram a organização do evento.`},
-      {id:6, cat:'cultura', title:'Mostra celebra cinema nacional em circuito itinerante', dt:'2025-10-04T18:00:00-03:00', img:'https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1600&auto=format&fit=crop',
-       excerpt:'Sessões gratuitas e debates com diretores.',
-       body:`A programação passa por 12 capitais. Oficinas abordam roteiro e fotografia.`}
-    ];
-
-    // Render do feed
+    // Dados via JSON externo
+    let posts = [];
     const feed = document.querySelector('#feed');
     const q = document.querySelector('#q');
     const chips = document.querySelectorAll('.chip');
     const edition = document.querySelector('#edition');
     const year = document.querySelector('#year');
+    const leadTime = document.querySelector('#leadTime');
 
     year.textContent = new Date().getFullYear();
+    leadTime.textContent = new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
 
     function formatDate(iso){
       const d = new Date(iso);
@@ -256,7 +227,6 @@
     }))
     q.addEventListener('input', applyFilters);
 
-    // Modal de artigo
     const modal = document.querySelector('#articleModal');
     const articleTitle = document.querySelector('#articleTitle');
     const articleMeta = document.querySelector('#articleMeta');
@@ -293,14 +263,31 @@
 
     // Edição (data de hoje)
     const now = new Date();
-    edition.textContent = `Edição • ${now.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'})}`;
+    edition.textContent = `Edição • Delmiro Gouveia • ${now.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'})}`;
 
-    // Inicializa
-    render(posts);
+    // Carrega JSON
+    async function loadPosts(){
+      try{
+        const res = await fetch('./data/posts.json', {cache:'no-store'});
+        posts = await res.json();
+      }catch(e){
+        console.warn('Sem posts.json, usando exemplo.', e);
+        posts = [{
+          id:101, cat:'delmiro',
+          title:'Prefeitura anuncia mutirão de limpeza em bairros centrais',
+          dt:'2025-10-06T08:10:00-03:00',
+          img:'https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=1600&auto=format&fit=crop',
+          excerpt:'Ação envolve 80 servidores e coleta de entulhos em cinco frentes.',
+          body:'O cronograma divulgado prevê passagem pelas áreas com maior acúmulo de resíduos e orientação porta a porta.'
+        }];
+      }
+      render(posts);
+    }
+    loadPosts();
 
     // Ações simples
-    document.querySelector('#rssBtn').addEventListener('click',()=>alert('Exemplo: /rss.xml (gerar via build).'))
-    document.querySelector('#anuncieBtn').addEventListener('click',()=>alert('Envie um e-mail para anuncios@atlas.news'))
+    document.querySelector('#rssBtn').addEventListener('click',()=>window.open('./rss.xml','_blank'));
+    document.querySelector('#anuncieBtn').addEventListener('click',()=>location.href='mailto:comercial@primeirahora.al'));
   </script>
 </body>
 </html>
