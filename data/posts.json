@@ -1,29 +1,92 @@
 [
   {
-    "id": 201,
+    "id": 301,
     "cat": "delmiro",
-    "title": "Prefeitura anuncia mutirão de limpeza em bairros centrais",
+    "title": "Mutirão de limpeza atende bairros centrais neste fim de semana",
     "dt": "2025-10-06T08:10:00-03:00",
     "img": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=1600&auto=format&fit=crop",
-    "excerpt": "Ação envolve 80 servidores e coleta de entulhos em cinco frentes.",
-    "body": "O cronograma prevê passagem pelas áreas com maior acúmulo de resíduos e orientação porta a porta."
+    "excerpt": "A ação reúne 80 servidores e prevê coleta de entulhos com operação porta a porta.",
+    "body": "O cronograma divulgado prioriza vias com maior acúmulo de resíduos. Moradores são orientados a separar recicláveis e evitar descartar restos de construção nas calçadas."
   },
   {
-    "id": 202,
+    "id": 302,
     "cat": "alagoas",
-    "title": "AL-220 terá interdição parcial para obra de recapeamento",
+    "title": "AL-220 terá interdição parcial para recapeamento entre Delmiro e Piranhas",
     "dt": "2025-10-06T07:40:00-03:00",
     "img": "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1600&auto=format&fit=crop",
-    "excerpt": "DER-AL informa horários de bloqueio entre Delmiro e Piranhas.",
-    "body": "Motoristas devem redobrar atenção nos trechos; haverá operação pare-e-siga."
+    "excerpt": "DER-AL informa horários de bloqueio e recomenda atenção redobrada.",
+    "body": "Os serviços ocorrem em faixas alternadas no esquema pare-e-siga. A orientação é reduzir a velocidade, respeitar a sinalização e programar o deslocamento."
   },
   {
-    "id": 203,
+    "id": 303,
     "cat": "policia",
-    "title": "Polícia apreende motocicleta clonada no Centro",
+    "title": "Polícia apreende motocicleta clonada no Centro de Delmiro",
     "dt": "2025-10-06T07:05:00-03:00",
     "img": "https://images.unsplash.com/photo-1623602574711-006b4d437e1b?q=80&w=1600&auto=format&fit=crop",
-    "excerpt": "Suspeito foi conduzido à Delegacia Regional para esclarecimentos.",
-    "body": "A abordagem ocorreu durante patrulhamento; chassi apresentava sinais de adulteração."
+    "excerpt": "Veículo tinha placa adulterada; condutor foi levado à Delegacia Regional.",
+    "body": "A abordagem ocorreu durante patrulhamento de rotina. Após consulta, os policiais identificaram sinais de remarcação no chassi. O caso segue sob investigação."
+  },
+  {
+    "id": 304,
+    "cat": "politica",
+    "title": "Câmara vota hoje projeto de modernização da iluminação pública",
+    "dt": "2025-10-06T09:00:00-03:00",
+    "img": "https://images.unsplash.com/photo-1530038507685-9f29f6d2d3b0?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Plano prevê instalação de lâmpadas LED em avenidas e praças.",
+    "body": "A proposta inclui cronograma por etapas e estimativa de economia na conta de luz municipal. A sessão será transmitida ao vivo pelos canais oficiais do Legislativo."
+  },
+  {
+    "id": 305,
+    "cat": "economia",
+    "title": "Feriadão deve aquecer o comércio no centro da cidade",
+    "dt": "2025-10-05T18:20:00-03:00",
+    "img": "https://images.unsplash.com/photo-1518085250887-2f903c200fee?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Lojas ampliam horário e apostam em promoções para movimentar vendas.",
+    "body": "A CDL estima aumento de fluxo em lojas de vestuário e eletrodomésticos. Setor de alimentação também reforçou equipes para atender à demanda."
+  },
+  {
+    "id": 306,
+    "cat": "esportes",
+    "title": "Equipe local conquista título do futsal sub-17",
+    "dt": "2025-10-05T20:30:00-03:00",
+    "img": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Decisão no ginásio municipal teve casa cheia e muita comemoração.",
+    "body": "O treinador destacou a disciplina tática e a base de formação. A prefeitura informou que irá apoiar a participação da equipe em torneios regionais."
+  },
+  {
+    "id": 307,
+    "cat": "cultura",
+    "title": "Feira de artesanato reúne expositores do Sertão do São Francisco",
+    "dt": "2025-10-04T18:00:00-03:00",
+    "img": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Evento na Praça Multieventos inclui oficinas e música ao vivo.",
+    "body": "A programação valoriza mestres e artesãos locais, com destaque para bordado e cerâmica. As atividades são gratuitas e abertas ao público."
+  },
+  {
+    "id": 308,
+    "cat": "sertao",
+    "title": "Vazão do Xingó é tema de reunião entre pescadores e órgãos ambientais",
+    "dt": "2025-10-04T10:35:00-03:00",
+    "img": "https://images.unsplash.com/photo-1520975922203-b5d7f9743558?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Debate busca conciliar segurança hídrica e atividade pesqueira na região.",
+    "body": "Entidades discutem calendário de cheias e alternativas para minimizar impactos. Pescadores reivindicam previsibilidade para planejar a safra."
+  },
+  {
+    "id": 309,
+    "cat": "delmiro",
+    "title": "Nova UPA amplia atendimento noturno a partir desta semana",
+    "dt": "2025-10-06T06:50:00-03:00",
+    "img": "https://images.unsplash.com/photo-1576765608622-067973a79f61?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Unidade terá reforço de profissionais e triagem mais rápida.",
+    "body": "A secretaria informou que o plantão contará com clínico, pediatra e equipe de enfermagem em tempo integral. A estrutura recebeu novos equipamentos."
+  },
+  {
+    "id": 310,
+    "cat": "economia",
+    "title": "Produtores de leite discutem custos e logística em encontro regional",
+    "dt": "2025-10-03T16:15:00-03:00",
+    "img": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=1600&auto=format&fit=crop",
+    "excerpt": "Setor busca alternativas para reduzir perdas e melhorar escoamento.",
+    "body": "Cooperativas apresentaram propostas de compras coletivas de insumos e rotas compartilhadas. Técnicos reforçaram a importância da assistência veterinária."
   }
 ]
